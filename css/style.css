@@ -1,0 +1,301 @@
+/* @import url(reset.css); */
+
+
+body{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	background: #f7fdfe; 
+	/* margin: 0; */
+	max-width: 100%;
+	background-attachment: fixed;
+	background-image: url(../images/mount.png); /*!!! не правильно текста четко не видно*/
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	/*  color: #111111; */
+	margin-top: 80px;
+	min-width: 640px;
+}
+/* * {
+  box-sizing:border-box;
+} */
+
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	min-width: 640px;
+	padding-left: 10px;
+	padding-right: 10px;
+	outline: 0px solid red;
+}
+
+body a {
+	text-decoration: none;
+}
+
+/*-------------------------*\
+	Начало блока header
+\*-------------------------*/
+.header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 100%;
+}
+
+.header a {
+	color: #82868f;
+}
+
+.header .wrapper{
+	overflow: hidden;
+	height: 80px;
+}
+
+.logo, .nav li, .but {
+	display: inline;
+}
+
+.logo a {
+	float: left;
+	padding: 15px;
+	font-size: 30px;
+}
+
+.nav {
+	margin: 0;
+}
+
+.nav li {
+	float: right;
+	padding-left: 32px;
+	font-size: 14px;
+}
+
+.nav1 {
+	padding: 15px 0;
+}
+
+.but {
+	color: #e2f5fa;
+	width: 123px;
+	height: 41px;
+	background: #0ebfdd;
+	text-align: center;
+	border-radius: 20px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	margin-top: -18px; /*!!!! не правильно*/
+}
+
+/*-------------------------*\
+	Конец блока header
+\*-------------------------*/
+
+
+/*-------------------------*\
+	Начало блока content
+\*-------------------------*/
+.our_miss .wrapper {
+	height: 170px;
+}
+
+.our_miss {
+	padding-bottom: 80px;
+	padding-top: 350px;
+	text-align: center;
+	color: #f7fdfe;
+}
+
+.our_miss h2 {
+	font-size: 44px;
+	font-weight: 700;
+}
+
+.our_miss p {
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.star1, .star2 {
+	font-size: 17px;
+	bottom: 7px;
+	position: relative;
+}
+
+.about {
+	background-color: #ffffff;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.about .wrapper {
+	height: 170px;
+}
+
+.about h2 {
+	color: #0ebfdd;
+	font-size: 44px;
+}
+
+.about p {
+	color: #45494d;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.team {
+	background-color: #0ebfdd;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.team .wrapper {
+	height: 600px;
+}
+
+.team h2 {
+	font-size: 44px;
+}
+
+
+.people1 {
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 90px;
+}
+
+.people_foto {
+	display: inline-block;
+}
+
+.work_with {
+	padding-bottom: 50px;
+	padding-top: 100px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.butt_w {
+	width: 181px;
+	height: 42px;
+	background-color: #0ebfdd;
+	border: 1px solid #ffffff;
+	border-radius: 20px;
+}
+
+/* .map {
+	width: 100%;
+}
+
+.map .wrapper {
+	width: 100%;
+	height: 600px;
+} */
+
+.map iframe {
+	display: block;
+}
+
+/*-------------------------*\
+	Конец блока content
+\*-------------------------*/
+
+
+/*-------------------------*\
+	Начало блока footer
+\*-------------------------*/
+.footer {
+	background-color: #45494d;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	text-align: center;
+	color: #ffffff;
+	/* overflow: hidden; */
+	/* text-decoration: none; */
+}
+
+.footer li {
+	list-style-type: none;
+}
+
+.f_top .wrapper {
+	height: 110px;
+}
+
+.f_top {
+	border-bottom: 1px solid #5a5e62;
+	padding-bottom: 50px;
+}
+
+.bott_nav {
+	padding-left: 0;
+}
+
+.bott_nav a {
+	color: #d7dee4;
+	/* display: inline-block; */
+}
+
+.bott_nav li {
+	margin-top: 12px;
+	float: left;
+	font-size: 12px;
+} 
+
+.a1, .a2 {
+	text-decoration: none;
+	padding-left: 30px;
+	/* padding-left: 30px;
+	padding-top: 90px; */
+}
+
+.icons {
+	float: right;
+	margin-top: 0;
+}
+
+.icons li {
+	display: inline-block;
+	color: #fff;
+	font-size: 12,5px;
+	border: 1px solid #d7dee4;
+	border-radius: 50%;
+	padding: 7px;
+	margin-left: 8px;
+}
+
+.icon-mail, .icon-facebook, .icon-twitter {
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	color: #fff;
+	/* line-height:40px; */
+	/* cursor: pointer; */
+}
+
+.f_bottom {
+	color: #73767a;
+	font-size: 10px;
+	padding-right: 0;
+}
+
+.f_bottom li {
+	float: right;
+	padding-right: 18px;
+	/* padding-left: 18px; */
+	/* text-align: right; */
+}
+/*-------------------------*\
+	Конец блока footer
+\*-------------------------*/
